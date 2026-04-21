@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(28, 58, 94);
+  color: hsl(207, 36%, 95%);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 100px;
+  margin: 100px 20px;
+}
+
+h1 {
+  color: hsl(51, 78%, 45%);
+  text-align: center;
+  line-height: 50px;
+}
+
+h2 {
+  color: hsl(184, 53%, 62%);
+  text-indent: 40px;
+}
+
+p {
+  color: rgb(247, 250, 252);
+  text-indent: 20px;
+  line-height: 30px;
+}
+h1, h2{
+    border-bottom: 3px solid hwb(204 40% 25%); /* Grosor, estilo y color */
+    padding-bottom: 5px;             /* Espacio entre el texto y la línea */
+    display: inline-block;           /* Hace que la línea mida lo mismo que el texto */
+}
+
+img {
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    margin: 20px auto; /* Centra la imagen horizontalmente y agrega espacio vertical */
+    border-radius: 20px; /* Agrega bordes redondeados a la imagen */
+    box-shadow: 0 10px 20px #3faffaea; /* Agrega una sombra a la imagen */
+}
+
+a{
+    color: hwb(186 73% 19%);
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+a:hover {
+    color: lab(58.82% 6 -57.69);
+    text-decoration: underline; /* Agrega un subrayado al pasar el mouse sobre el enlace */
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
