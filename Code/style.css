@@ -7,14 +7,14 @@ body {
 }
 
 h1 {
-  color: hsl(51, 78%, 45%);
+  color: hwb(202 17% 13%);
   text-align: center;
   line-height: 50px;
 }
 
 h2 {
   color: hsl(184, 53%, 62%);
-  text-indent: 40px;
+  text-indent: 40px; 
 }
 
 p {
@@ -49,3 +49,20 @@ main {
   margin: auto;
 }
 
+label {
+  display: block; /* Hace que el label se comporte como un bloque */
+  margin-top: 20px; /* Agrega espacio arriba del label */
+  color: hwb(200 87% 7%);
+  font-weight: bold;  
+}
+
+button {
+  background-color: lab(95.6% -0.96 -1.43);
+  color: hsl(207, 65%, 45%);
+  border: 2px solid hsl(207, 88%, 17%);
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Agrega bordes redondeados al botón */
+  box-shadow: 0 5px 10px rgba(39, 77, 184, 0.979); /* Agrega una sombra al botón */
+}
