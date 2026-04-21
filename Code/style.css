@@ -49,6 +49,13 @@ main {
   margin: auto;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+  border-radius: 20px;  
+}
 label {
   display: block; /* Hace que el label se comporte como un bloque */
   margin-top: 20px; /* Agrega espacio arriba del label */
@@ -65,4 +72,10 @@ button {
   cursor: pointer;
   border-radius: 5px; /* Agrega bordes redondeados al botón */
   box-shadow: 0 5px 10px rgba(39, 77, 184, 0.979); /* Agrega una sombra al botón */
+}
+
+input, textarea, select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid gray;
 }
